@@ -143,6 +143,24 @@
         }
     },
     {
+        "DisplayName": "Difficulty",
+        "Category": "Stationeers:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the game difficulty.",
+        "Keywords": "difficulty,hard,easy",
+        "FieldName": "Difficulty",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Difficulty",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Easy",
+        "EnumValues": {
+            "Easy": "Easy (default)",
+            "Normal": "Normal",
+            "Stationeer": "Stationeer"
+        }
+    },
+    {
         "DisplayName": "Enable Autosave",
         "Category": "Stationeers:stadia_controller",
         "Subcategory": "Server:dns:1",
