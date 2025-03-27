@@ -254,7 +254,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "LocalIpAddress",
         "IncludeInCommandLine": true,
-        "DefaultValue": "",
+        "DefaultValue": "0.0.0.0",
         "EnumValues": {}
     },
     {
