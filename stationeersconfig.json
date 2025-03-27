@@ -14,20 +14,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Update Port",
-        "Category": "Stationeers:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$UpdatePort",
-        "InputType": "number",
-        "Hidden": true,
-        "IsFlagArgument": false,
-        "ParamFieldName": "UpdatePort",
-        "IncludeInCommandLine": false,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Server Name",
         "Category": "Stationeers:stadia_controller",
         "Subcategory": "Server:dns:1",
