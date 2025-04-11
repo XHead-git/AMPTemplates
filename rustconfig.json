@@ -85,7 +85,7 @@
         "ParamFieldName": "server.motd",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
-        "DefaultValue": "Welcome to Rust!",
+        "DefaultValue": "",
         "EnumValues": {}
     },
     {
@@ -408,9 +408,11 @@
         "InputType": "enum",
         "ParamFieldName": "server.gamemode",
         "IncludeInCommandLine": true,
-        "DefaultValue": "vanilla",
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
         "EnumValues": {
-            "vanilla": "Vanilla (default)",
+            "": "Survival (default)",
+            "vanilla": "Vanilla",
             "primitive": "Primitive",
             "softcore": "Softcore",
             "hardcore": "Hardcore"
@@ -427,7 +429,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "server.pve",
         "IncludeInCommandLine": true,
-        "DefaultValue": "true",
+        "DefaultValue": "false",
         "EnumValues": {
             "False": "false",
             "True": "true"
