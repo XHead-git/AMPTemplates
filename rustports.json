@@ -15,7 +15,7 @@
     },
     {
         "Protocol": "TCP",
-        "Port": 28017,
+        "Port": 28082,
         "Ref": "RustPlusAppPort",
         "Name": "Rust+ App Port",
         "Description": "Port for Rust+ App traffic"
