@@ -1,18 +1,5 @@
 [
     {
-        "ConfigFile": "./server/{{serveridentity}}/cfg/server.cfg",
-        "ConfigType": "kvp",
-        "ConfigFormat": "{0}{1}",
-        "Subsections": [
-            {
-                "Heading": "$root",
-                "SettingMappings": {
-                    "": "UserSettings"
-                }
-            }
-        ]
-    },
-    {
         "ConfigFile": "./server/{{serveridentity}}/cfg/users.cfg",
         "ConfigType": "kvp",
         "ConfigFormat": "{0}{1}",
