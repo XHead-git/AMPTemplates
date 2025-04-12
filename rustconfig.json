@@ -381,6 +381,7 @@
         "InputType": "Textarea",
         "ParamFieldName": "UserSettings",
         "DefaultValue": "",
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
