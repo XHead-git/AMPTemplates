@@ -372,19 +372,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Additional Server Settings",
-        "Category": "Rust:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "Specifies additional settings to include in \"server.cfg\" that are not otherwise set by AMP. Example: time.maxdelta \"0.33\". One setting per line. To list all settings in the console, type: find .",
-        "Keywords": "additional,settings,custom",
-        "FieldName": "UserSettings",
-        "InputType": "Textarea",
-        "ParamFieldName": "UserSettings",
-        "DefaultValue": "",
-        "SkipIfEmpty": true,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Server Identity",
         "Category": "Rust:stadia_controller",
         "Subcategory": "Server:dns:1",
