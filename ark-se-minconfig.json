@@ -533,6 +533,68 @@
         }
     },
     {
+        "DisplayName": "Disable Weather Fog",
+        "Category": "ARK SE:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, fog is disabled",
+        "Keywords": "weather,fog,disableweatherfog",
+        "FieldName": "DisableWeatherFog",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DisableWeatherFog",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "False",
+        "EnumValues": {
+            "False": "False",
+            "True": "True"
+        }
+    },
+    {
+        "DisplayName": "Day/Night Cycle Speed Multiplier",
+        "Category": "ARK SE:stadia_controller",
+        "Subcategory": "Multipliers:tune:3",
+        "Description": "Sets the scaling factor for the server day/night cycle. The default value 1 sets the same speed as a singleplayer game, ie 1 minute real time = approx 28 minutes server time. A scale of 0.035 would set a day/night cycle of approx 24 hours real time",
+        "Keywords": "day,night,cycle,speed,multiplier,daycyclespeedscale",
+        "FieldName": "DayCycleSpeedScale",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DayCycleSpeedScale",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1.000000",
+        "Placeholder": "1.000000",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Day Time Speed Multiplier",
+        "Category": "ARK SE:stadia_controller",
+        "Subcategory": "Multipliers:tune:3",
+        "Description": "Sets the scaling factor for the length of each server day, relative to the length of each night. Lowering this value increases the day length",
+        "Keywords": "day,time,speed,multiplier,daytimespeedscale",
+        "FieldName": "DayTimeSpeedScale",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DayTimeSpeedScale",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1.000000",
+        "Placeholder": "1.000000",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Night Time Speed Multiplier",
+        "Category": "ARK SE:stadia_controller",
+        "Subcategory": "Multipliers:tune:3",
+        "Description": "Sets the scaling factor for the length of each server night, relative to the length of each day. Lowering this value increases the night length",
+        "Keywords": "night,time,speed,multiplier,nighttimespeedscale",
+        "FieldName": "NightTimeSpeedScale",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "NightTimeSpeedScale",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1.000000",
+        "Placeholder": "1.000000",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Cluster Directory Override",
         "Category": "ARK SE:stadia_controller",
         "Subcategory": "Clusters:share:3",
