@@ -597,7 +597,7 @@
     {
         "DisplayName": "Cluster Directory Override",
         "Category": "ARK SE:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Sets the path to a shared cluster directory for a server cluster. The cluster directory must be accessible to all cluster servers. If the server is in Docker, the directory must be mounted in the container",
         "Keywords": "cluster,directory,override,clusterdiroverride",
         "FieldName": "ClusterDirOverride",
@@ -609,7 +609,7 @@
     {
         "DisplayName": "Cluster ID",
         "Category": "ARK SE:stadia_controller",
-        "Subcategory": "Clusters:share:3",
+        "Subcategory": "Clusters:share:4",
         "Description": "Sets the cluster ID for a server cluster. The cluster ID must be the same on all servers in the cluster",
         "Keywords": "cluster,id,clusterid",
         "FieldName": "clusterid",
