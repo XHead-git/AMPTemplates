@@ -1,8 +1,8 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
+	"id": "f0714e3a-eeb4-4a20-86e0-4bea6fbc4629",
+	"authors": ["CubeCoders Limited", "AMP Community", "XHead-git"],
 	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"url": "https://github.com/XHead-git/AMPTemplates",
 	"imagefile": "",
 	"prefix": "XHead-git",
 	"repotype": "AppTemplates"
